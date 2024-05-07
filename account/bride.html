@@ -16,6 +16,7 @@
         }
         
         h1 {color: #B8A47F; }
+        h2 {color: #4a3e29; }
         
         .gowun-batang-regular {
           font-family: "Gowun Batang", serif;
@@ -23,13 +24,20 @@
           font-style: normal;
         }
         
+        .flex { 
+          display: flex;
+          height : 100vh;
+          justify-content: center; 
+          align-items: center;
+        }
         
         .my_btn {
           font-family: "Gowun Batang", serif;
-          font-size: 25px;
+          font-size: 20px;
           background-color: #B8A47F;
           color: white;
           border: none;
+          padding : 2px 20px; 
           border-radius: 20px;
         }
         
@@ -40,15 +48,19 @@
     </head>
 
 <body>
+  
+  <div class="flex">
 
-    <div>
+    <div style="display:block;">
+    <div>  
     <h1> 한상이</h1>
 	 <h2>
        <div> 국민은행
        <div style="display:inline;" id="copyTxt_00">069102 04 140613</div>
        <input class='my_btn' type="button" value="복사하기" onclick="copyT_00()"/> 
        </div>
-     </h2>
+     </h2>       
+    </div>
  
     <div>
     <h1> 아버지 한지택</h1>
@@ -58,6 +70,7 @@
        <input class='my_btn' type="button" value="복사하기" onclick="copyT_01()"/> 
       </div>
      </h2>
+    </div>
 
       
      <div>
@@ -68,7 +81,11 @@
        <input class='my_btn' type="button" value="복사하기" onclick="copyT_02()"/> 
        </div>
       </h2>
-       
+    </div>
+
+    </div>
+  
+  </div>
        
        
  <script>
