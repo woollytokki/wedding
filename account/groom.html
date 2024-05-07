@@ -2,32 +2,92 @@
 <html>
     <head>
         <title>박우석 한상이 결혼합니다.</title>
-    </head>
-<body>
+      
+      
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
 
-    <div>
-    <h3>신랑 박우석</h3>
-	 <p>
-      <div> 국민은행
-       <div style="display:inline;" id="copyTxt_00">000000</div>
-       <input type="button" value="복사하기" onclick="copyT_00()"/> 
-      </div>
-     </p>
+      
+      <style>
+        
+        body {
+          font-family: "Gowun Batang", serif;
+        }
+        
+        h1 {color: #B8A47F; }
+        h2 {color: #4a3e29; }
+        
+        .gowun-batang-regular {
+          font-family: "Gowun Batang", serif;
+          font-weight: 400;
+          font-style: normal;
+        }
+        
+        .flex { 
+          display: flex;
+          height : 100vh;
+          justify-content: center; 
+          align-items: center;
+        }
+        
+        .my_btn {
+          font-family: "Gowun Batang", serif;
+          font-size: 20px;
+          background-color: #B8A47F;
+          color: white;
+          border: none;
+          padding : 2px 20px; 
+          border-radius: 20px;
+        }
+        
+        
+      </style>
+      
+      
+    </head>
+
+<body>
+  
+  <div class="flex">
+
+    <div style="display:block;">
+    <div>  
+    <h1>신랑 박우석</h1>
+	 <h2>
+       <div> 00은행
+       <div style="display:inline;" id="copyTxt_00">00000</div>
+       <input class='my_btn' type="button" value="복사하기" onclick="copyT_00()"/> 
+       </div>
+     </h2>       
+    </div>
  
     <div>
-    <h3> 아버지 박희용</h3>
-	 <div> 국민은행
+    <h1> 아버지 박희용</h1>
+     <h2>
+	  <div> 00은행
        <div style="display:inline;" id="copyTxt_01">11111</div>
-       <input type="button" value="복사하기" onclick="copyT_01()"/> 
+       <input class='my_btn' type="button" value="복사하기" onclick="copyT_01()"/> 
+      </div>
+     </h2>
     </div>
 
       
      <div>
-    <h3> 어머니 노여심</h3>
-	 <div> 우리은행
+    <h1> 어머니 노여심심</h1>
+      <h2>
+	   <div> 00은행
        <div style="display:inline;" id="copyTxt_02">22222</div>
-       <input type="button" value="복사하기" onclick="copyT_02()"/> 
+       <input class='my_btn' type="button" value="복사하기" onclick="copyT_02()"/> 
+       </div>
+      </h2>
     </div>
+
+    </div>
+  
+  </div>
+       
+       
  <script>
 
             function copyT_00() {
